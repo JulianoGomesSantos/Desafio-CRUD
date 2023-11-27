@@ -1,0 +1,12 @@
+<!-- src/app/components/product-list/product-list.component.html -->
+
+<div class="product-list">
+    <h2>Product List</h2>
+    <ul>
+      <li *ngFor="let product of products">
+        {{ product.name }} - {{ product.value }}
+        <!-- Include other details as needed -->
+      </li>
+    </ul>
+  </div>
+  
